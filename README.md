@@ -1,60 +1,78 @@
-# 🌐 Nexus-AI | Intelligent Financial Operations Portal
+# 🌐 Nexus-AI | Intelligent Financial Operations Agent
 
-**Nexus-AI** is a high-performance Financial Operations (FinOps) dashboard designed for modern Fintech environments. It integrates real-time ledger analysis with Generative AI to provide executive-level insights into multi-currency cash flows and treasury risks.
+**Nexus-AI** is a high-performance Financial Operations (FinOps) portal designed to demonstrate how **Generative AI** can revolutionize risk management and operational efficiency in global Fintech environments.
+
+This project simulates a real-world treasury department of a Dublin-based Fintech, handling multi-currency transactions and real-time FX (Foreign Exchange) risks.
 
 ![Python Version](https://img.shields.io/badge/python-3.12-blue)
-![AI Engine](https://img.shields.io/badge/AI-Google_Gemini_2.5_Flash-purple)
+![AI Engine](https://img.shields.io/badge/AI-Gemini_2.5_Flash-purple)
 ![Framework](https://img.shields.io/badge/Framework-Streamlit-FF4B4B)
+![Market](https://img.shields.io/badge/Focus-Fintech_&_Banking-gold)
+
+---
+
+## 🎯 Project Overview
+
+In the fast-paced Irish Fintech ecosystem, the ability to transition from "static data" to "actionable intelligence" is a competitive advantage. **Nexus-AI** bridges this gap by combining traditional data analysis with LLM-powered reasoning (Reasoning AI).
+
+Instead of just viewing a dashboard, stakeholders can interact with a **Virtual CFO Agent** that understands complex financial ledgers and provides strategic advice on hedging and cash-flow optimization.
+
+---
+
+## 💰 Business Case & Impact
+
+Developed with the **Business Analyst** mindset, this tool focuses on measurable ROI:
+
+* **Operational Efficiency:** Automates complex ledger reviews, achieving an estimated **85% reduction** in manual reporting time.
+* **FX Risk Mitigation:** Real-time monitoring of currency exposure (EUR, USD, GBP, BRL) with automated risk scoring.
+* **Strategic Decision Support:** AI-driven insights that suggest "Hedge" strategies and liquidity movements to protect the bottom line.
 
 ---
 
 ## 🚀 Key Features
 
--   **Executive KPI Suite:** Real-time calculation of Net Exposure, Average Transaction Size, and Active Currency counts.
--   **Advanced Visual Analytics:** Cumulative Cash Flow Velocity tracking and distribution charts using high-contrast corporate branding.
--   **AI Financial Assistant:** A specialized LLM agent powered by **Gemini 2.5 Flash** that performs "Zero-Shot" data analysis on ledger records via natural language.
--   **Automated Risk Engine:** Synthetic data generation simulating a Dublin-based Fintech's multi-currency environment (EUR, USD, GBP, BRL).
+-   **Executive KPI Suite:** Instant calculation of Net Exposure, Transaction Velocity, and Active Currency distribution.
+-   **Intelligent FinOps Assistant:** A specialized agent powered by **Gemini 2.5 Flash** that performs "Zero-Shot" data analysis on transactions via natural language queries.
+-   **Dynamic Risk Visualization:** High-contrast charts for Cumulative Cash Flow and Currency Concentration.
+-   **Synthetic Data Engine:** A high-fidelity generator that creates complex financial scenarios for portfolio demonstration.
 
 ---
 
-## 🛠️ Tech Stack
+## 🛠️ Technical Stack
 
 -   **Language:** Python 3.12
--   **Frontend:** Streamlit (Custom CSS Injected)
--   **AI SDK:** Google Generative AI (Official SDK)
--   **Data Processing:** Pandas, NumPy
--   **Environment Management:** Dotenv (Secure API Key handling)
+-   **AI & Agent Orchestration:** Google Generative AI SDK (Gemini)
+-   **Frontend:** Streamlit (Custom Corporate CSS Injection)
+-   **Data Manipulation:** Pandas & NumPy
+-   **Environment:** Dotenv for secure API management
 
 ---
 
-## ⚙️ Installation & Setup
+## ⚙️ Quick Start
 
-1. **Clone the repository:**
-   ```bash
-   git clone [https://github.com/your-username/nexus-ai.git](https://github.com/your-username/nexus-ai.git)
-   cd nexus-ai
+This project is configured as a **Live Portfolio Showcase**. No file upload is required for the demo, as it generates high-fidelity synthetic data upon launch.
 
-Set up Virtual Environment:
+1.  **Clone & Install:**
+    ```bash
+    git clone [https://github.com/mateusamaral1715-hub/nexus-ai.git](https://github.com/mateusamaral1715-hub/nexus-ai.git)
+    pip install -r requirements.txt
+    ```
+2.  **Environment Setup:**
+    Create a `.env` file and add your `GEMINI_API_KEY`.
+3.  **Run the Portal:**
+    ```bash
+    streamlit run app.py
+    ```
 
-Bash
-python -m venv venv
-.\venv\Scripts\activate
+---
 
-Install Dependencies:
+## 🇮🇪 CSEP & Market Alignment
 
-Bash
-pip install streamlit pandas numpy google-generativeai python-dotenv
-Configure Environment Variables:
-Create a .env file in the root directory and add your API key:
+This project specifically targets the **Critical Skills Employment Permit (CSEP)** requirements in Ireland by demonstrating expertise in:
+1.  **Emerging Technologies:** Practical implementation of Generative AI.
+2.  **Financial Services (Fintech):** Deep understanding of FX Risk and Operational Workflows.
+3.  **Data-Driven Leadership:** Translating complex technical stacks into business value.
 
-Plaintext
-GEMINI_API_KEY=your_google_gemini_api_key_here
-Run the Portal:
-
-Bash
-streamlit run app.py
-📊 Business Logic (Dublin Case Study)
-The system calculates the Net Impact of every transaction (Receivables vs. Payables) and projects the cumulative cash flow. The AI Agent is programmed to act as a Senior Financial Analyst, providing data-backed answers strictly in English to maintain compliance with international financial reporting standards.
-
-Developed for Portfolio Purposes - FinOps Architecture 2026.
+---
+**Developed by [Mateus Amaral](www.linkedin.com/in/mateus-amaral-895392293)** *Business Analyst | AI Implementation Specialist | Relocating to Ireland 🇮🇪*
 
