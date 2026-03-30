@@ -59,21 +59,27 @@ To demonstrate the **AI Reasoning** capabilities, here is a real-world scenario 
 
 ---
 
-## 🔌 Quick Start
+
+## ⚙️ Quick Start
 
 This project is configured as a **Live Portfolio Showcase**. No file upload is required for the demo, as it generates high-fidelity synthetic data upon launch.
 
-1.  **Clone & Install:**
-    ```bash
-    git clone [https://github.com/mateusamaral1715-hub/nexus-ai.git](https://github.com/mateusamaral1715-hub/nexus-ai.git)
-    pip install -r requirements.txt
+1. **Clone & Install:**
+   ```bash
+   # Clone the repository
+   git clone [https://github.com/mateusamaral1715-hub/Nexus-AI---Intelligent-Financial-Operations-Agent.git](https://github.com/mateusamaral1715-hub/Nexus-AI---Intelligent-Financial-Operations-Agent.git)
+
+   # Enter the project directory
+   cd Nexus-AI---Intelligent-Financial-Operations-Agent
+
+   # Install dependencies
+   pip install -r requirements.txt
     ```
-2.  **Environment Setup:**
-    Create a `.env` file and add your `GEMINI_API_KEY`.
+2. Environment Setup:
+Create a .env file in the root folder and add your GEMINI_API_KEY.
 3.  **Run the Portal:**
-    ```bash
+   
     streamlit run app.py
-    ```
 
 ---
 
