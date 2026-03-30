@@ -1,0 +1,12 @@
+# Security: Do NOT upload API Keys
+.env
+
+# Environments: Do NOT upload virtual environments
+venv/
+__pycache__/
+.streamlit/
+cache/
+
+# Logs and temporary files
+*.log
+.DS_Store
