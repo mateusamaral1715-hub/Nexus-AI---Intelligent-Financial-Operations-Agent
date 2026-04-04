@@ -20,6 +20,7 @@ In the fast-paced Fintech ecosystem, passive observability is no longer sufficie
 
 Instead of a static dashboard, stakeholders interact with a **Reasoning Agent** that leverages safe AI query frameworks to analyze multi-currency ledgers, identify revenue leakage, and deliver **Senior CFO-level strategic advice**.
 
+> **🛡️ Data Privacy & GDPR Compliance Note:** To ensure absolute security and compliance, all financial ledgers and transaction records analyzed in this architecture were synthetically generated via Python specifically for this PoC. No real-world sensitive data or proprietary company information was used.
 ---
 
 ## 💰 Business Impact & FinOps Alignment
